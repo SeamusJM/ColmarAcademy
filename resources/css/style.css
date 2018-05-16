@@ -144,8 +144,10 @@ button:hover {
 }
 
 .holder-practice-main {
+  width: 60%;
   padding: 32px 24px;
   border-right: 1px solid #666600;
+  margin-bottom: 32px;
 }
 
 .holder-img-practice {
@@ -262,6 +264,11 @@ button:hover {
   font-size: 0.8rem;
   margin: 8px 0;
 }
+
+.holder-thesis-vid {
+  width: 60%;
+}
+
 
 .holder-thesis {
   width: 100%;
@@ -487,6 +494,11 @@ a:hover {
 #thesis {
   padding-bottom: 24px;
 }
+
+.holder-thesis-vid {
+  width: 100%;
+}
+
 .holder-thesis-txt {
   display: none;
 }
