@@ -193,7 +193,7 @@ button:hover {
   margin-right: 8px;
 }
 
-.blue {
+.highlight{
   background-color: #666600;
 }
 
@@ -315,8 +315,8 @@ video {
 }
 
 footer {
-  background-color: #007EA7;
-  color: #003249;
+  background-color: #666600;
+  color: #FFFFFF;
   padding: 0 24px;
   border-top: 2px solid #003249;
   display: flex;
@@ -332,6 +332,7 @@ footer {
 }
 
 footer a {
+  color: #FFFFFF;
   display: inline-block;
   margin: 16px 0 0 16px;
   text-decoration: underline;
@@ -339,6 +340,7 @@ footer a {
 
 footer a:hover {
   text-decoration: none;
+  color: #000000;
 }
 
 @media only screen and (max-width: 710px) {
