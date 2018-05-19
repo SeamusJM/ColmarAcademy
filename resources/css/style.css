@@ -1,7 +1,5 @@
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -39,18 +37,18 @@ header img {
   height: 60px;
 }
 
-.holder-logo {
+.logo {
   display: flex;
   align-items: center;
 }
 
-.logo1 {
+.logo-p1 {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.5rem;
 }
 
-.logo2 {
+.logo-p2 {
   text-transform: uppercase;
   font-size: 1.5rem;
 }
@@ -75,7 +73,6 @@ header img {
 
 #learn h1 {
   font-size: 2.5rem;
-  /* line-height: 2rem; */
 }
 
 #learn h2 {
@@ -98,7 +95,7 @@ button:hover {
   color: #000000;
 }
 
-.holder-img-banner {
+.banner {
   width: 60%;
   height: auto;
 }
@@ -108,7 +105,7 @@ button:hover {
   height: auto;
 }
 
-.holder-learn {
+.start-btn {
   display: flex;
   flex-flow: wrap column;
   justify-content: center;
@@ -143,14 +140,14 @@ button:hover {
   text-decoration: none;
 }
 
-.holder-practice-main {
+.practice-main {
   width: 60%;
   padding: 32px 24px;
   border-right: 1px solid #666600;
   margin-bottom: 32px;
 }
 
-.holder-img-practice {
+.practice-area {
   width: 100%;
   height: auto;
 }
@@ -160,12 +157,12 @@ button:hover {
   height: auto;
 }
 
-.quoted {
+.quote {
   margin: 20px 0;
   font-weight: bold;
 }
 
-.holder-campus-info {
+.campus-info {
   min-width: 423px;
 }
 
@@ -175,7 +172,7 @@ button:hover {
   border-bottom: 1px solid #666600;
 }
 
-.holder-img-campus-info {
+.img-campus-info-area {
   max-width: 33%;
   height: auto;
   margin: 16px;
@@ -222,25 +219,25 @@ button:hover {
   margin: 8px 0;
 }
 
-.holder-courses {
+.courses-area {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   width: auto;
 }
 
-.holder-course {
+.course {
   background-color: #CCDBDC;
   width: 30%;
   margin: 16px;
   padding-bottom: 24px;
 }
 
-.holder-course-txt {
+.course-txt {
   padding: 16px 16px;
 }
 
-.holder-course-img {
+.course-img-area {
   width: 100%;
   height: auto;
 }
@@ -265,17 +262,17 @@ button:hover {
   margin: 8px 0;
 }
 
-.holder-thesis-vid {
+.thesis-video-area {
   width: 60%;
 }
 
 
-.holder-thesis {
+.thesis-area {
   width: 100%;
   display: flex;
 }
 
-.holder-vid {
+.thesis-video {
   height: auto;
   width: 100%;
   padding-left: 24px;
@@ -286,15 +283,15 @@ video {
   width: 100%;
 }
 
-.holder-thesis-txt {
+.thesis-txt {
   margin: 24px 0 32px 24px;
 }
 
-.holder-thesis-txt p {
+.thesis-txt p {
   margin-top: 16px;
 }
 
-.holder-thesis-info {
+.thesis-info {
   min-width: 423px;
   margin-left: 16px;
 }
@@ -305,7 +302,7 @@ video {
   align-items: center;
 }
 
-.holder-thesis-img {
+.thesis-img-area {
   max-width: 35%;
   height: auto;
   margin: 16px;
@@ -365,7 +362,7 @@ footer a:hover {
   align-items: center;
 }
 
-.holder-logo {
+.logo {
   display: none;
 }
 
@@ -390,13 +387,13 @@ a:hover {
   margin: 32px 0 24px 0;
 }
 
-.holder-img-banner {
+.banner {
   width: 100%;
   height: 180px;
   overflow: hidden;
 }
 
-.holder-learn {
+.start-btn {
   display: flex;
   flex-flow: wrap column;
   justify-content: center;
@@ -408,11 +405,11 @@ a:hover {
   padding-bottom: 16px;
 }
 
-.holder-practice-main {
+.practice-main {
   display: none;
 }
 
-.holder-campus-info {
+.campus-info {
   width: 100%;
 }
 
@@ -422,7 +419,7 @@ a:hover {
   height: auto;
 }
 
-.holder-img-campus-info {
+.img-campus-info-area {
   min-width: 100%;
   margin: 0;
   padding: 16px;
@@ -461,23 +458,23 @@ a:hover {
   line-height: 0.5rem;
 }
 
-.holder-courses {
+.courses-area {
   justify-content: space-around;
   width: 100%;
   margin: 0 auto;
 }
 
-.holder-course {
+.course {
   width: 100%;
   margin: 8px 16px;
   padding: 0;
 }
 
-.holder-course-txt h3, p {
+.course-txt h3, p {
   display: none;
 }
 
-.holder-course-img {
+.course-img-area {
   display: none;
 }
 
@@ -485,7 +482,7 @@ a:hover {
   display: none;
 }
 
-.holder-vid {
+.holder-video {
   height: auto;
   width: 100%;
   padding: 0;
@@ -495,15 +492,15 @@ a:hover {
   padding-bottom: 24px;
 }
 
-.holder-thesis-vid {
+.thesis-video-area {
   width: 100%;
 }
 
-.holder-thesis-txt {
+.thesis-txt {
   display: none;
 }
 
-.holder-thesis-info {
+.thesis-info {
   display: none;
 }
 
